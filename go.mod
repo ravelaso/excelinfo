@@ -1,4 +1,4 @@
-module excelscan
+module excelinfo
 
 go 1.23.2
 
