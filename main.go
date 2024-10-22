@@ -13,7 +13,7 @@ func ToAlphaString(index int) string {
 	result := ""
 	for index >= 0 {
 		remainder := index % 26
-		result = string('A'+remainder) + result
+		result = string(rune('A'+remainder)) + result
 		index = index/26 - 1
 	}
 	return result
