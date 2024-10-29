@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ravelaso/excelinfo/excelinfo"
+	"github.com/ravelaso/excelinfo"
 	"github.com/xuri/excelize/v2"
 )
 
